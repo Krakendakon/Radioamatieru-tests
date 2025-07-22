@@ -1,5 +1,6 @@
 import React from "react";
-
+import { InlineMath } from "react-katex";
+import "katex/dist/katex.min.css";
 function ResultPage({ score, total, userAnswers }) {
   const mistakes = userAnswers.filter(
     (ans) => ans.selectedAnswer !== ans.question.answer
