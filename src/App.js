@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import "katex/dist/katex.min.css";
 import HomePage from "./HomePage";
 import QuestionPage from "./QuestionPage";
 import ResultPage from "./ResultPage";
@@ -16,7 +17,7 @@ function App() {
   useEffect(() => {
     document.title = "Radioamatieru Tests"; // ✅ Set dynamic title
   }, []);
-  
+
   // Dark mode state with persistence
   const [darkMode, setDarkMode] = useState(() => {
     const saved = localStorage.getItem("darkMode");
