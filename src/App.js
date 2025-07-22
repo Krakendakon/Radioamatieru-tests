@@ -12,6 +12,11 @@ function App() {
   const [started, setStarted] = useState(false);
   const [userAnswers, setUserAnswers] = useState([]);
 
+  
+  useEffect(() => {
+    document.title = "Radioamatieru Tests"; // ✅ Set dynamic title
+  }, []);
+  
   // Dark mode state with persistence
   const [darkMode, setDarkMode] = useState(() => {
     const saved = localStorage.getItem("darkMode");
