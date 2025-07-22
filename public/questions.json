@@ -1,0 +1,62 @@
+ [
+  {
+    "category": "Elektrotehnika",
+    "question": "Kas ir spriegums?",
+    "options": [
+      "Strāvas stiprums",
+      "Elektronu skaits",
+      "Elektriskais potenciāls",
+      "Pretestība"
+    ],
+    "answer": "Elektriskais potenciāls",
+    "explanation": "Spriegums ir elektriskā potenciāla starpība starp diviem punktiem elektriskajā ķēdē."
+  },
+  {
+    "category": "Radio teorija",
+    "question": "Kāda ir elektromagnētisko viļņu izplatīšanās ātrums vakuumā?",
+    "options": [
+      "3x10^8 m/s",
+      "3000 km/s",
+      "300 km/h",
+      "Cikls sekundē"
+    ],
+    "answer": "3x10^8 m/s",
+    "explanation": "Elektromagnētiskie viļņi vakuumā izplatās ar gaismas ātrumu — aptuveni 300 miljoni metru sekundē (3x10^8 m/s)."
+  },
+  {
+    "category": "Radio teorija",
+    "question": "Kas ir modulācija?",
+    "options": [
+      "Radiofrekvenču mērīšana",
+      "Signāla stiprināšana",
+      "Informācijas uzlikšana uz nesējviļņa",
+      "Antenas uzstādīšana"
+    ],
+    "answer": "Informācijas uzlikšana uz nesējviļņa",
+    "explanation": "Modulācija ir process, kurā informācija (piemēram, balss vai dati) tiek pārnesta, mainot nesējviļņa īpašības."
+  },
+  {
+    "category": "Elektrotehnika",
+    "question": "Kāda ir Ohma likuma formula?",
+    "options": [
+      "U = R / I",
+      "I = U / R",
+      "R = U * I",
+      "U = I * P"
+    ],
+    "answer": "I = U / R",
+    "explanation": "Ohma likums nosaka, ka strāvas stiprums ķēdē ir vienāds ar sprieguma un pretestības attiecību (I = U / R)."
+  },
+  {
+    "category": "Radio teorija",
+    "question": "Kāds ir radioamatieru 2 metru diapazona frekvenču apgabals?",
+    "options": [
+      "430–440 MHz",
+      "144–146 MHz",
+      "3.5–3.8 MHz",
+      "1.8–2.0 GHz"
+    ],
+    "answer": "144–146 MHz",
+    "explanation": "2 metru radioamatieru josla Latvijā un Eiropā atbilst 144–146 MHz frekvenču diapazonam."
+  }
+]
