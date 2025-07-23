@@ -29,7 +29,7 @@ function App() {
     fetch("/questions.json")
       .then((res) => res.json())
       .then((data) => {
-        const shuffled = data.sort(() => 0.5 - Math.random()).slice(0, 5);
+        const shuffled = data.sort(() => 0.5 - Math.random()).slice(0, 10);
         setQuestions(shuffled);
       });
   }, []);
