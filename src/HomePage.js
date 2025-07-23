@@ -7,7 +7,16 @@ function HomePage({ onStart }) {
       <h1>Radioamatiera Eksāmena Tests</h1>
       <p>Sāc testu un pārbaudi savas zināšanas!</p>
       <button onClick={onStart}>Startēt testu</button>
-      <a href="https://github.com/Krakendakon/Radioamatieru-tests">Atvērtais kods</a>
+            <div style={{ marginTop: "1rem" }}>
+        <a 
+          href="https://github.com/Krakendakon/Radioamatieru-tests" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          style={{ textDecoration: "none", color: "#0366d6", fontWeight: "bold" }}
+        >
+          Atvērtais kods
+        </a>
+      </div>
     </div>
   );
 }
