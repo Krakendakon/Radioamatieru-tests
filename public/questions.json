@@ -83,7 +83,7 @@
       "$$m = 2 \\times \\frac{A - B}{A + B} \\times 100\\%$$"
     ],
     "image": "/images/image3.png",
-    "answer": "A: $$m = \\frac{A - B}{A + B} \\times 100\\%$$",
+    "answer": "$$m = \\frac{A - B}{A + B} \\times 100\\%$$",
     "explanation": "A un B ir modulētā signāla maksimālais un minimālais amplitūdas līmenis, kas nolasāmi no osciloskopa."
   },
     {
