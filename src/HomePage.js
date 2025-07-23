@@ -7,6 +7,7 @@ function HomePage({ onStart }) {
       <h1>Radioamatiera Eksāmena Tests</h1>
       <p>Sāc testu un pārbaudi savas zināšanas!</p>
       <button onClick={onStart}>Startēt testu</button>
+      <a href="https://github.com/Krakendakon/Radioamatieru-tests">Atvērtais kods</a>
     </div>
   );
 }
